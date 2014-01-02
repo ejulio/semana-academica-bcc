@@ -28,13 +28,23 @@ $(document).ready(function () {
 
     $('#map-canvas').each(function () {
 
-        var address = $(this).attr('data-address');
+        var me = $(this),
+            address = me.attr('data-address'),
+            latitude = me.attr('data-latitude'),
+            longitude = me.attr('data-longitude'),
+            options;
 
+        if (latitude && longitude) {
+          options = { 'location': new google.maps.LatLng(+latitude, +longitude) };
+        } else {
+          options = { 'address': address };
+        }
+      
         geocoder = new google.maps.Geocoder();
 
         initialize();
 
-        geocoder.geocode({ 'address': address}, function (results, status) {
+        geocoder.geocode(options, function (results, status) {
 
             if (status === google.maps.GeocoderStatus.OK) {
 

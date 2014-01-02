@@ -6,4 +6,8 @@
   <span itemprop="addressRegion"> <%= @conf.state %></span>
 </p>
 
-<div id="map-canvas" class="location-area" data-address="<%= @conf.address %>"></div>
+<% if @conf.coordinates: %>
+  <div id="map-canvas" class="location-area" data-latitude="<%= @conf.coordinates.latitude %>" data-longitude="<%= @conf.coordinates.longitude %>" data-address="<%= @conf.address %>"></div>
+<% else: %>
+  <div id="map-canvas" class="location-area" data-address="<%= @conf.address %>"></div>
+<% end %>

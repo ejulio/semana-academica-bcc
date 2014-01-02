@@ -1,17 +1,22 @@
 <h2 class="section-title"><%= @labels['contact'] %></h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ducimus neque amet corrupti ex temporibus similique.</p>
-<form method="post" action="contact.php" id="form" class="form">
-  <div class="control-group control-group-name">
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name" placeholder="Your name">
-  </div>
-  <div class="control-group control-group-email">
-    <label for="email">E-mail</label>
-  <input type="email" name="email" id="email" placeholder="Your e-mail">
-  </div>
-  <div class="control-group">
-    <label for="message">Message</label>
-  <textarea name="" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
-  </div>
-  <input class="btn btn-send" type="submit" value="Send">
-</form>
+<div id="wufoo-z1bkrw2l1uhvisc">
+Fill out my <a href="https://ejulio.wufoo.com/forms/z1bkrw2l1uhvisc">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com" >Wufoo</a></div>
+<script type="text/javascript">var z1bkrw2l1uhvisc;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'ejulio', 
+'formHash':'z1bkrw2l1uhvisc', 
+'autoResize':true,
+'height':'497',
+'async':true,
+'host':'wufoo.com',
+'header':'show', 
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { z1bkrw2l1uhvisc = new WufooForm();z1bkrw2l1uhvisc.initialize(options);z1bkrw2l1uhvisc.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
