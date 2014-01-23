@@ -24,7 +24,7 @@ module.exports = {
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
+        repository: "https://github.com/Calcomp/semana-academica-bcc"
     },
 
     // Site info
@@ -41,7 +41,7 @@ module.exports = {
       'about',
       'location',
       'speakers',
-      'schedule',
+      //'schedule',
       'sponsors',
       'partners',
       'contact'
@@ -60,54 +60,84 @@ module.exports = {
 
     // The entire schedule
     schedule: [{
-        day: "14/04/2014",
+        day: "", // 14/04/2014
         schedule: [{
-            name: "Check-in / Breakfast",
+            name: "Check-in",
             time: "18h30"
         }, {
-            name: "Chuck Norris",
-            photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg",
-            bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-            company: "Delta Command",
-            twitter: "littlechuck",
+            name: "Thiago Boufleuhr",
+            photo: "themes/yellow-swan/img/thiago_boufleuhr.jpg",
+            bio: "Consultor em arquitetura e desenvolvimento de sofware com foco em tecnologias Microsoft. Especialista em Microsoft .NET (ASP.NET MVC, ASP.NET WebAPI, Entity Framework, Windows Azure) com titulação MCT, Professional Scrum Master I (PSM I) e escritor de artigos para .NET Magazine. Atualmente possui uma empresa de consultoria e treinamentos em diversos temas relacionados a tecnologia.",
+            company: "TB Training",
+            twitter: "",
             presentation: {
-                title: "How to kill a elephant with one finger",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                time: "13h00"
+                title: "Windos Azure WebSites – Descomplique a nuvem",
+                description: "Será demonstrado o uso do serviço Azure WebSites, quando utilizá-lo, como utilizá-lo e integração com outros serviços do Windows Azure, como Storage e Cache.",
+                time: ""
+            }
+        }, {
+            name: "Loiane Groner",
+            photo: "http://www.loiane.com/wp-content/uploads/2009/01/livro_loiane-300x225.jpg",
+            bio: "Bacharel em Ciência da Computação, trabalha como Gerente de Desenvolvimento de Projetos no Citibank (maior instituição financeira do mundo), em São Paulo. Possui 8+ anos de experiência em TI. Autora dos livrosExt JS 4 First Look, Mastering Ext JS e Sencha Architect App Development, todos publicados pela editora Packt e lançados mundialmente em inglês. Evangelista Java e Sencha Community Leader no Brasil.",
+            company: "City Bank / www.loiane.com",
+            twitter: "@loiane",
+            presentation: {
+                title: "A confirmar",
+                description: "A confirmar",
+                time: ""
             }
         }]
     }, {
-        day: "15/04/2014",
+        day: "", // 15/04/2014
         schedule: [{
-            name: "Check-in / Breakfast",
+            name: "Check-in",
             time: "18h30"
         }, {
-            name: "Chuck Norris",
-            photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg",
-            bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-            company: "Delta Command",
-            twitter: "littlechuck",
+            name: "",
+            photo: "http://www.clker.com/cliparts/5/7/4/8/13099629981030824019profile.svg.hi.png",
+            bio: "",
+            company: "",
+            twitter: "",
             presentation: {
-                title: "How to kill a elephant with one finger",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                time: "13h00"
+                title: "A confirmar",
+                description: "",
+                time: ""
+            }
+        }, {
+            name: "",
+            photo: "http://www.clker.com/cliparts/5/7/4/8/13099629981030824019profile.svg.hi.png",
+            bio: "",
+            company: "",
+            twitter: "",
+            presentation: {
+                title: "A confirmar",
+                description: "",
+                time: ""
             }
         }]
     }, {
-        day: "16/04/2014",
+        day: "", // 16/04/2014
         schedule: [{
-            name: "Check-in / Breakfast",
-            time: "18h30"
-        }, {
-            name: "Chuck Norris",
-            photo: "http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg",
-            bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-            company: "Delta Command",
-            twitter: "littlechuck",
+            name: "",
+            photo: "http://www.clker.com/cliparts/5/7/4/8/13099629981030824019profile.svg.hi.png",
+            bio: "",
+            company: "",
+            twitter: "",
             presentation: {
-                title: "How to kill a elephant with one finger",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-                time: "13h00"
+                title: "A confirmar",
+                description: "",
+                time: ""
+            }
+        }, {
+            name: "",
+            photo: "http://www.clker.com/cliparts/5/7/4/8/13099629981030824019profile.svg.hi.png",
+            bio: "",
+            company: "",
+            twitter: "",
+            presentation: {
+                title: "A confirmar",
+                description: "",
+                time: ""
             }
         }]
     }],
