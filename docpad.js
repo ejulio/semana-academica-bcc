@@ -17,7 +17,7 @@ module.exports = {
       city: "Blumenau",
       state: "Santa Catarina",
       coordinates: {
-        latitude: -26.9048500,
+        latitude: -26.9048506,
         longitude: -49.0776500
       }
     },
@@ -82,8 +82,8 @@ module.exports = {
             company: "City Bank / www.loiane.com",
             twitter: "@loiane",
             presentation: {
-                title: "A confirmar",
-                description: "A confirmar",
+                title: " Desenvolvimento Mobile Híbrido com HTML5: por onde começar?",
+                description: "Descrição: Nessa palestra vamos ver uma introdução sobre tecnologias para começar a desenvolver mobile com HTML5, como HTML5, Sencha Touch e Jquery Mobile. E para o desenvolvimento nativo não ficar de fora, vamos falar também sobre phonegap, um framework que casa muito bem com as tecnologias já mencionadas e que permite fazer acesso a recursos do disposito, como câmera, geolocalização,, contatos, conexão, etc. Vamos ver também dicas e ferramentas que podem nos ajudar com o desenvolvimento de apps mobile híbridas.",
                 time: ""
             }
         }]
