@@ -11,7 +11,7 @@ module.exports = {
       description: "Conference description",
       date: "14, 15, 16 de abril",
       // If your event is free, just comment this line
-      //price: "$100",
+      //price: "FREE",
       venue: "FURB - Auditório do bloco J",
       address: "Rua Antônio da Veiga, 140 - Victor Konder",
       city: "Blumenau",
@@ -38,7 +38,7 @@ module.exports = {
     // to deactivate comment out with '//'
     // you can also change order here and it will reflect on page
     sections: [
-      'about',
+      //'about',
       'location',
       'speakers',
       //'schedule',
