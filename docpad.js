@@ -93,14 +93,14 @@ module.exports = {
             name: "Check-in",
             time: "18h30"
         }, {
-            name: "",
-            photo: "http://www.clker.com/cliparts/5/7/4/8/13099629981030824019profile.svg.hi.png",
-            bio: "",
-            company: "",
+            name: "Rafael Mueller",
+            photo: "themes/yellow-swan/img/rafael_mueller.jpg",
+            bio: "Arquiteto e desenvolvedor de software na Inventti Soluções. Bacharel em Ciências da Computação pela UFSC, e especialista em engenharia de software pela IST. Trabalha profissionalmente com software desde 2001, nesses anos já trabalhou com PHP, Java, Ruby e nos últimos 5 anos na plataforma .net. Agilista desde 2004, sempre buscando mudança e melhoria no desenvolvimento de software.",
+            company: "Inventti Soluções",
             twitter: "",
             presentation: {
-                title: "A confirmar",
-                description: "",
+                title: "A melhor profissão em 2014? Developers! Developers! Developers!",
+                description: "Qual o melhor emprego para 2014 segundo pesquisa da U.S. News & World Report? Desenvolvedor de software. Nós temos o melhor emprego, mas mesmo assim é comum encontrarmos desenvolvedores insatisfeitos. Nessa palestra vou abordar alguns assuntos que podem fazer nossa profissão ainda melhor, e nossas empresas mais interessantes de se trabalhar. Vou falar sobre técnicas, processos, ferramentas, e responsabilidades de um desenvolvedor, e também vários pontos dos quais eu gostaria de ter ouvido há 13 anos atrás, quando comecei a trabalhar como desenvolvedor.",
                 time: ""
             }
         }, {
