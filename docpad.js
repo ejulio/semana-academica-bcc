@@ -29,7 +29,7 @@ module.exports = {
 
     // Site info
     site: {
-      theme: "yellow-swan",
+      theme: "default",
       url: "http://braziljs.github.io/conf-boilerplate/",
       googleanalytics: "UA-33656081-1"
     },
@@ -43,8 +43,8 @@ module.exports = {
       'speakers',
       //'schedule',
       'sponsors',
-      'partners',
-      'contact'
+      'partners'
+      //'contact'
     ],
 
     // Labels which you can translate to other languages
@@ -66,7 +66,7 @@ module.exports = {
             time: "18h30"
         }, {
             name: "Thiago Boufleuhr",
-            photo: "themes/yellow-swan/img/thiago_boufleuhr.jpg",
+            photo: "images/thiago_boufleuhr.jpg",
             bio: "Consultor em arquitetura e desenvolvimento de sofware com foco em tecnologias Microsoft. Especialista em Microsoft .NET (ASP.NET MVC, ASP.NET WebAPI, Entity Framework, Windows Azure) com titulação MCT, Professional Scrum Master I (PSM I) e escritor de artigos para .NET Magazine. Atualmente possui uma empresa de consultoria e treinamentos em diversos temas relacionados a tecnologia.",
             company: "TB Training",
             twitter: "",
@@ -94,7 +94,7 @@ module.exports = {
             time: "18h30"
         }, {
             name: "Rafael Mueller",
-            photo: "themes/yellow-swan/img/rafael_mueller.jpg",
+            photo: "images/rafael_mueller.jpg",
             bio: "Arquiteto e desenvolvedor de software na Inventti Soluções. Bacharel em Ciências da Computação pela UFSC, e especialista em engenharia de software pela IST. Trabalha profissionalmente com software desde 2001, nesses anos já trabalhou com PHP, Java, Ruby e nos últimos 5 anos na plataforma .net. Agilista desde 2004, sempre buscando mudança e melhoria no desenvolvimento de software.",
             company: "Inventti Soluções",
             twitter: "",
@@ -148,15 +148,15 @@ module.exports = {
     // List of Partners
     partners: [{
         name: "FURB",
-        logo: "themes/yellow-swan/img/furb.jpg",
+        logo: "images/FURB.jpg",
         url: "http://furb.br"
     }, {
         name: "DSC",
-        logo: "themes/yellow-swan/img/furb.jpg",
+        logo: "images/FURB.jpg",
         url: "http://www.inf.furb.br"
     }, {
         name: "CALCOMP",
-        logo: "themes/yellow-swan/img/calcomp.png",
+        logo: "images/calcomp.png",
         url: "http://www.inf.furb.br"
     }],
 
