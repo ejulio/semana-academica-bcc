@@ -158,6 +158,10 @@ module.exports = {
         name: "CALCOMP",
         logo: "images/calcomp.png",
         url: "http://www.inf.furb.br"
+    }, {
+        name: "Casa do Código",
+        logo: "images/casa_do_código.png",
+        url: "http://www.casadocodigo.com.br/"
     }],
 
     // Theme path
