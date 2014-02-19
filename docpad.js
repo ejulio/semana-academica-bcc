@@ -43,8 +43,8 @@ module.exports = {
       'speakers',
       //'schedule',
       'sponsors',
-      'partners'
-      //'contact'
+      'partners',
+      'contact'
     ],
 
     // Labels which you can translate to other languages
