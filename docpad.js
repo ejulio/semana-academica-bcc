@@ -143,25 +143,37 @@ module.exports = {
     }],
 
     // List of Sponsors
-    sponsors: [],
+    sponsors: [{
+        name: "Casa do Código",
+        logo: "images/casa_do_codigo.png",
+        url: "http://www.casadocodigo.com.br/"
+    }, {
+        name: "O'Reilly",
+        logo: "images/oreilly.jpg",
+        url: "http://www.oreillynet.com/"
+    }, {
+        name: "JetBrains",
+        logo: "images/jetbrains.png",
+        url: "http://www.jetbrains.com/"
+    }, {
+        name: "Pluralsight",
+        logo: "images/pluralsight.png",
+        url: "http://www.pluralsight.com/"
+    }],
 
     // List of Partners
     partners: [{
         name: "FURB",
         logo: "images/FURB.jpg",
-        url: "http://furb.br"
+        url: "http://furb.br/"
     }, {
         name: "DSC",
         logo: "images/FURB.jpg",
-        url: "http://www.inf.furb.br"
+        url: "http://www.inf.furb.br/"
     }, {
         name: "CALCOMP",
         logo: "images/calcomp.png",
-        url: "http://www.inf.furb.br"
-    }, {
-        name: "Casa do Código",
-        logo: "images/casa_do_código.png",
-        url: "http://www.casadocodigo.com.br/"
+        url: "http://www.inf.furb.br/calcomp/"
     }],
 
     // Theme path
