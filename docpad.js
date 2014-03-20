@@ -100,24 +100,24 @@ module.exports = {
             time: "18h 30min"
         }, {
             name: "Marcos Harbs",
-            photo: "http://www.clker.com/cliparts/5/7/4/8/13099629981030824019profile.svg.hi.png",
+            photo: "images/marcos_harbs.jpg",
             bio: "",
             company: "",
             twitter: "",
             presentation: {
                 title: "Motor para Jogos 2D utilizando HTML5",
-                description: "",
+                description: "Este trabalho apresenta a implementação de um motor de jogos 2D em HTML5 e Javascript, um editor web para este motor e uma aplicação para exemplificar o uso destas duas implementações. O motor de jogos disponibiliza funcionalidades como criação de cena, criação de camadas, gerenciamento de objetos, gerenciamento de recurso de imagens e áudio, detecção de colisão, física de corpos rígidos (utilizando a biblioteca Box2DJS) e uma arquitetura reutilizável orientada a componentes. Para a criação do motor foi utilizada a linguagem Javascript juntamente com o elemento canvas do HTML5. Este trabalho também aborda técnicas para abstração da parte comum de um jogo e apresenta os resultados obtidos com os testes de desempenho e memória realizados através dos principais navegadores do mercado. ",
                 time: "18h 45min"
             }
         }, {
             name: "Jackson Krause",
-            photo: "http://www.clker.com/cliparts/5/7/4/8/13099629981030824019profile.svg.hi.png",
+            photo: "images/jackson_krause.jpg",
             bio: "",
             company: "",
             twitter: "",
             presentation: {
                 title: "Uber: uma Ferramenta para Realce de Microcalcificações Mamárias",
-                description: "",
+                description: "O trabalho descreve o desenvolvimento de uma ferramenta capaz de realçar microcalcificações presentes em mamografias digitais. A ferramenta obteve 81,81% de acerto em relação ao que a biblioteca MIAS aponta como maior concentração de microcalcificações. Os resultados demonstram que a ferramenta desenvolvida é eficiente para encontrar aglomerados de microcalcificações, porém necessita de alguns ajustes para diminuição de falsas microcalcificações eventualmente realçadas.",
                 time: "19h 30min"
             }
         }, {
