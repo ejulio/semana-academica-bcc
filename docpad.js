@@ -174,6 +174,10 @@ module.exports = {
         name: "Pluralsight",
         logo: "images/pluralsight.png",
         url: "http://www.pluralsight.com/"
+    }, {
+        name: "Novatec",
+        logo: "images/novatec.gif",
+        url: "http://www.novatec.com.br/"
     }],
 
     // List of Partners
