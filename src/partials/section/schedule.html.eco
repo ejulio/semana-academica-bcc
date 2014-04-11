@@ -40,3 +40,17 @@
       </table>
     </div>
 <% end %>
+
+<h2 class="schedule-title">Matutino</h2>
+<h3 class="speech-title">
+    <span class="speech-time">15/04/2014 08h</span>
+    <span class="speech-time">16/04/2014 08h</span>
+    Desenvolvimento de e-Commerce com a Plataforma MAGENTO
+</h3>
+<h3 class="speakers-name">
+    Diego Padilha e André Felipe Teixeira da Luz
+    <span class="speakers-company">SIGNATIVA</span>
+</h3>
+<p class="speakers-bio">
+    O mini-curso será ofertado na sala S-403 e terá número limitado de vagas, então fiquem atentos a o link de inscrição que será disponibilizado
+</p>

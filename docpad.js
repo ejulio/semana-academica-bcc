@@ -13,7 +13,7 @@ module.exports = {
       // If your event is free, just comment this line
       //price: "FREE",
       venue: "FURB - Auditório da biblioteca (Campus 1)",
-      address: "Rua Antônio da Veiga, 140 - Victor Konder",
+      address: "FURB - Auditório da biblioteca (Campus 1) - Rua Antônio da Veiga, 140 - Victor Konder",
       city: "Blumenau",
       state: "Santa Catarina",
       coordinates: {
@@ -88,7 +88,7 @@ module.exports = {
             company: "TB Training",
             twitter: "",
             presentation: {
-                title: "Windos Azure WebSites – Descomplique a nuvem",
+                title: "Windows Azure WebSites – Descomplique a nuvem",
                 description: "Será demonstrado o uso do serviço Azure WebSites, quando utilizá-lo, como utilizá-lo e integração com outros serviços do Windows Azure, como Storage e Cache.",
                 time: "20h 30min"
             }
@@ -101,8 +101,8 @@ module.exports = {
         }, {
             name: "Marcos Harbs",
             photo: "images/marcos_harbs.jpg",
-            bio: "",
-            company: "",
+            bio: "Ex-aluno do curso de Ciência da Computação da FURB. Atualmente trabalha na Teclógica.",
+            company: "Teclógica",
             twitter: "",
             presentation: {
                 title: "Motor para Jogos 2D utilizando HTML5",
@@ -112,8 +112,8 @@ module.exports = {
         }, {
             name: "Jackson Krause",
             photo: "images/jackson_krause.jpg",
-            bio: "",
-            company: "",
+            bio: "Ex-aluno do curso de Ciência da Computação da FURB. Atualmente trabalha na HBSYS.",
+            company: "HBSYS",
             twitter: "",
             presentation: {
                 title: "Uber: uma Ferramenta para Realce de Microcalcificações Mamárias",
